@@ -1,0 +1,96 @@
+/* Chargement des polices internes*/
+@font-face {
+	font-family: 'introrustg-base2line' ;
+	src: url('fonts/introrustg-base2line.otf');
+}
+
+/* Elements*/
+
+	/* dans le header*/
+		header {
+			background-image: url(../images/header3.png);
+			background-size: 50%;
+			/*width: 100%;*/
+			/*background-size: cover;*/
+			background-size: contain;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			text-align: center;
+
+		}
+		#nomSiteTitre{
+			font-family: introrustg-base2line, Orbitron, Impact;
+			font-size: 600%;
+		}
+		#acrocheSitetitre{
+			font-size: 200%;
+			font-family:  Orbitron;
+			color: white;
+			text-align: right;
+			margin: bottom right;/*
+			text-align: right;*/
+			font-style: italic;
+		}
+
+	/* dans le reste */
+		#chap1 , #chap2, #chap3{
+			padding: 2% 5%;
+			font-size: 125%;
+			/*margin: 5%;*/
+			background-repeat: no-repeat;
+			background-size: 110%;
+		}
+		#chap1 {
+			background-image: url(../images/starmap2.png);
+			background-attachment: fixed;
+			color: gray;
+		}
+		#chap2 {
+			background-image: url(../images/orga7.png);
+			background-attachment: fixed;
+			color: black;
+		}
+		#chap3 {
+			background-color: silver;
+			color: black;
+		}
+
+
+/* Classes */
+
+.nomSiteTexte{
+	font-family: Orbitron, Impact;	
+}
+.acroche{
+	margin: 5%;
+	margin-left: 0%;
+	font-family: Trebuchet MS;
+	/*font-size: 6 %;*/
+	/*vertical-align: center;*/
+	color: rgba(125, 125, 125, 10);
+	text-shadow : 6px 6px 6px rgba(125, 125, 125, 0.7);
+	/* bordures */
+	border : 10px;
+	border-radius: 20px;
+	box-shadow: 6px 6px 10px #333333;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.acroche , p::first-letter { 
+	font-size: 300%; 
+	font-style: italic;
+	font-weight: bold;
+	float: left;
+}
+.premierMot  {
+	text-transform: uppercase; 
+}
+.images {
+	float: right;
+	width: 50%;
+}
+.text{
+	font-family: "Barlow Condensed";
+}
+.minuscule{
+	font-size: 40%;
+}
