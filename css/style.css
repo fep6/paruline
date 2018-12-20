@@ -1,3 +1,10 @@
+/* reset */
+*{
+	margin: 0%;
+	padding: 0%;
+}
+
+
 /* Chargement des polices internes*/
 @font-face {
 	font-family: 'introrustg-base2line' ;
