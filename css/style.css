@@ -91,10 +91,10 @@
 .premierMot  {
 	text-transform: uppercase; 
 }
-.images {
+/*.images {
 	float: right;
 	width: 50%;
-}
+}*/
 .text{
 	font-family: "Barlow Condensed";
 }
