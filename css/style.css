@@ -2,6 +2,7 @@
 *{
 	margin: 0%;
 	padding: 0%;
+	box-sizing: border-box;
 }
 
 
@@ -24,31 +25,6 @@
 			background-repeat: no-repeat;
 			text-align: center;
 			/*max-height: 40em;*/
-
-		}
-		section nav {/*
-			display: flex;
-			flex-direction : row;
-			justify-content: space-around;*/
-			height: 5em;
-			border: 1px;
-			border-style: solid;
-			border-color: white;
-			background-color: black; 
-		}
-		li {
-			display: flex;
-			flex-direction : row;
-			justify-content: space-around;
-		}
-		a {
-			justify-content: space-around;
-			text-decoration:none;
-			color: white;
-			background-color: black;
-			border: 1px;
-			border-style: solid;
-			border-color: white;
 		}
 		#nomSiteTitre{
 			font-family: introrustg-base2line, Orbitron, Impact;
@@ -63,6 +39,63 @@
 			text-align: right;*/
 			font-style: italic;
 		}
+
+	/* barre de navigation*/
+
+
+
+/*		.navigation {
+			display: inline-flex;
+			align-items: center;
+			flex-wrap: wrap;
+			justify-content: center;
+			width: 100%;
+			background: #eee;
+			padding: 20px;
+
+		}*/
+		ul {
+		  display:flex; 
+		  align-items: stretch; 
+		  justify-content: flex-start;
+		}
+
+		li{
+		  list-style-type:none; 
+		  /*display:flex;*/
+		  flex-grow:1;
+		  align-items:center;
+		  flex-direction: column;
+		  text-align:center;
+		  border:1px solid #fff;
+		  text-align:center;
+/*			width: 150px;
+			height: 100px;
+			background-color: black;*/
+		}
+		a {
+		  color:#fff;
+		  padding:10px;
+		  margin-right:1px;
+		  flex: 1;
+		  display: flex;
+		  align-content: center;
+		  align-items: center;
+		  text-align:center;
+		  justify-content: center;
+		  background-color:#000;
+/*			text-decoration: none;
+			color: white;
+			background-color: black;
+			border: 1px;
+			border-style: solid;
+			border-color: white;*/
+		}
+
+		.ariane{
+			color: red;
+		}
+
 
 	/* dans le reste */
 		#chap1 , #chap2, #chap3{
