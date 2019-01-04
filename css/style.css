@@ -23,7 +23,32 @@
 			background-attachment: fixed;
 			background-repeat: no-repeat;
 			text-align: center;
+			/*max-height: 40em;*/
 
+		}
+		section nav {/*
+			display: flex;
+			flex-direction : row;
+			justify-content: space-around;*/
+			height: 5em;
+			border: 1px;
+			border-style: solid;
+			border-color: white;
+			background-color: black; 
+		}
+		li {
+			display: flex;
+			flex-direction : row;
+			justify-content: space-around;
+		}
+		a {
+			justify-content: space-around;
+			text-decoration:none;
+			color: white;
+			background-color: black;
+			border: 1px;
+			border-style: solid;
+			border-color: white;
 		}
 		#nomSiteTitre{
 			font-family: introrustg-base2line, Orbitron, Impact;
