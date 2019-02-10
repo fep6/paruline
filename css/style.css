@@ -15,22 +15,44 @@
 /* Elements*/
 
 	/* dans le header*/
-		header {
-			background-image: url(../images/header3.png);
-			background-size: 20%;
+		#header0, #header, #headerE{
+			/*background-size: 20%;*/
 			/*width: 100%;*/
-			/*background-size: cover;*/
-			background-size: contain;
 			background-attachment: fixed;
 			background-repeat: no-repeat;
 			text-align: center;
 			/*max-height: 40em;*/
 		}
+		#header0 {
+			background-image: url(../images/header3.png);
+			background-size: 100% 100%;
+			padding-bottom: 20%;
+		}
+		#header {
+			background-image: url(../images/header5.png);
+			background-size: 100%;
+			/*min-height: : 100%;*/
+			padding-bottom: 3%;
+		}
+		#headerE {
+			background-image: url(../images/HOTAS_HOSAS.png);
+			background-size: 100%;
+			/*min-height: : 100%;*/
+			padding-bottom: 3%;
+		}
+
+
+
 		#nomSiteTitre{
 			font-family: introrustg-base2line, Orbitron, Impact;
 			font-size: 600%;
 		}
-		#acrocheSiteTitre{
+		#nomIngenierie{
+			font-family: introrustg-base2line, Orbitron, Impact;
+			font-size: 600%;
+			color: white;
+		}
+		#accrocheSiteTitre{
 			font-size: 200%;
 			font-family:  Orbitron;
 			color: white;
@@ -87,11 +109,31 @@
 			background-image: url(../images/nidParuline1.png);
 			color: rgba(200, 200, 200, 1);
 			/* ...Bizarre! */
-			padding: 10% 5%;
+			padding: 2% 5%;
 			font-size: 125%;
 			background-repeat: no-repeat;
 			background-size: 100%;
 			background-attachment: fixed;
+		}
+		#accrocheAccueil {
+			margin: 5%;
+			margin-left: 0%;
+			font-family: Trebuchet MS;
+			font-size: 1 %;
+			/*vertical-align: center;*/
+			color: rgba(125, 125, 125, 10);
+			text-shadow : 6px 6px 6px rgba(125, 125, 125, 0.7);
+			/* bordures */
+			border : 10px;
+			border-radius: 20px;
+			box-shadow: 6px 6px 10px #333333;
+			background-color: rgba(0, 0, 0, 0.6);
+		}
+		#accrocheAccueil , p::first-letter { 
+			font-size: 300%; 
+			font-style: italic;
+			font-weight: bold;
+			/*float: left;*/
 		}
 		#chap1 {
 			background-image: url(../images/starmap2.png);
@@ -102,8 +144,9 @@
 			color: black;
 		}
 		#chap3 {
-			background-color: silver;
-			color: black;
+			padding-top: 5%;
+			background-image: url(../images/Recrutement.png);
+			color: rgb(0,0,200);
 		}
 
 
@@ -112,7 +155,7 @@
 .nomSiteTexte{
 	font-family: Orbitron, Impact;	
 }
-.acroche{
+.accroche{
 	margin: 5%;
 	margin-left: 0%;
 	font-family: Trebuchet MS;
@@ -126,7 +169,7 @@
 	box-shadow: 6px 6px 10px #333333;
 	background-color: rgba(0, 0, 0, 0.6);
 }
-.acroche , p::first-letter { 
+.accroche , p::first-letter { 
 	font-size: 300%; 
 	font-style: italic;
 	font-weight: bold;
