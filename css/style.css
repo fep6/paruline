@@ -30,7 +30,7 @@
 			font-family: introrustg-base2line, Orbitron, Impact;
 			font-size: 600%;
 		}
-		#acrocheSitetitre{
+		#acrocheSiteTitre{
 			font-size: 200%;
 			font-family:  Orbitron;
 			color: white;
@@ -76,20 +76,29 @@
 
 
 	/* dans le reste */
-		#chap1 , #chap2, #chap3{
+		#chap1, #chap2, #chap3{
 			padding: 2% 5%;
 			font-size: 125%;
 			background-repeat: no-repeat;
 			background-size: 110%;
+			background-attachment: fixed;
+		}
+		#accueil{
+			background-image: url(../images/nidParuline1.png);
+			color: rgba(200, 200, 200, 1);
+			/* ...Bizarre! */
+			padding: 10% 5%;
+			font-size: 125%;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-attachment: fixed;
 		}
 		#chap1 {
 			background-image: url(../images/starmap2.png);
-			background-attachment: fixed;
 			color: gray;
 		}
 		#chap2 {
 			background-image: url(../images/orga7.png);
-			background-attachment: fixed;
 			color: black;
 		}
 		#chap3 {
